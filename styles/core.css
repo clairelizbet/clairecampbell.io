@@ -47,8 +47,11 @@ hr {
   text-align: center;
 }
 
-.flex-center {
+.flex {
   display: flex;
+}
+
+.flex-center {
   align-items: center;
   justify-content: center;
 }
