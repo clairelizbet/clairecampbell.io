@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<svg width="640" height="640" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="heart-path">
+      <path id="heart" d="m 131.4157 10.1459 c -66.24 0 -120 53.76 -120 120 c 0 134.7555 135.9332 170.0873 228.5625 303.308 c 87.5742 -132.4034 228.5625 -172.8546 228.5625 -303.308 c 0 -66.24 -53.7599 -120 -120 -120 c -48.0479 0 -89.4016 28.3704 -108.5625 69.1875 c -19.1608 -40.8171 -60.5145 -69.1875 -108.5625 -69.1875 z" transform="translate(60, 60)" />
+    </clipPath>
+  </defs>
+  <use href="#heart" stroke="#8f70b2" stroke-width="128" />
+  <g>
+    <rect y="5%" width="100%" height="18%" clip-path="url(#heart-path)" fill="#7ACDF6"></rect>
+    <rect y="23%" width="100%" height="15%" clip-path="url(#heart-path)" fill="#EAAEBA"></rect>
+    <rect y="38%" width="100%" height="15%" clip-path="url(#heart-path)" fill="#FFFFFF"></rect>
+    <rect y="53%" width="100%" height="15%" clip-path="url(#heart-path)" fill="#EAAEBA"></rect>
+    <rect y="68%" width="100%" height="20%" clip-path="url(#heart-path)" fill="#7ACDF6"></rect>
+  </g>
+</svg>

@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: var(--min-supported-width);
+  margin: 0;
+
+  background-color: var(--primary-bg-color);
+  color: var(--primary-fg-color);
+  font-family: var(--font-stack);
+  font-size: 14px;
+}
+
+a {
+  color: var(--primary-highlight-color);
+}
+
+p {
+  margin: 0;
+  margin-bottom: 0.5rem;
+  line-height: var(--standard-line-height);
+}
+
+h1,
+h2 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 1.1rem;
+  line-height: 1.75rem;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--secondary-bg-color);
+  margin: 0 0.75rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.chip-field {
+  display: inline-block;
+  position: relative;
+  padding: 0.25rem 0.5rem;
+  white-space: nowrap;
+  line-height: 1rem;
+
+  background-color: var(--primary-alternate-bg-color);
+  color: var(--primary-fg-color);
+  font-size: 1rem;
+  font-weight: initial;
+
+  border-radius: calc(var(--corner-rounding) / 2);
+}
+
+.chip-field a {
+  text-decoration: none;
+}

@@ -1,0 +1,40 @@
+:root {
+  --min-supported-width: 260px;
+
+  --border-thickness: 1px;
+  --corner-rounding: 10px;
+
+  --standard-line-height: 1.35rem;
+  --paragraph-space-before: 0.65rem;
+  --paragraph-space-after: 0.75rem;
+
+  --font-stack: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+
+  --recycled-paper: #e6e6e6;
+  --deep-dreams: #27194d;
+  --distant-star: #3e287b;
+  --vivid-purple: #6619be;
+  --neon-purple: #e338ec;
+
+  --primary-bg-color: var(--deep-dreams);
+  --primary-fg-color: white;
+
+  --primary-alternate-bg-color: var(--distant-star);
+  --primary-alternate-fg-color: white;
+
+  --primary-highlight-color: var(--neon-purple);
+
+  --secondary-bg-color: var(--vivid-purple);
+  --secondary-fg-color: white;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --primary-bg-color: white;
+    --primary-fg-color: var(--deep-dreams);
+
+    --primary-alternate-bg-color: var(--recycled-paper);
+    --primary-alternate-fg-color: var(--deep-dreams);
+  }
+}
