@@ -5,13 +5,13 @@
   --corner-rounding: 10px;
 
   --standard-line-height: 1.35rem;
-  --paragraph-space-before: 0.65rem;
-  --paragraph-space-after: 0.75rem;
+  --paragraph-space-before: 0;
+  --paragraph-space-after: 0.5rem;
 
   --font-stack: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
 
-  --recycled-paper: #e6e6e6;
+  --recycled-paper: #ebebeb;
   --deep-dreams: #27194d;
   --distant-star: #3e287b;
   --vivid-purple: #6619be;
